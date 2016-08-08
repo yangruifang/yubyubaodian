@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="email=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		<section class='search1' id="search1">
+			<p><input type="text" id="searHeader"><img src="img/search.png" alt="" id="seBtn"></p>
+		</section>
+		<header class="header" id="header">
+			<a href="#" id="back">返回</a>
+			<h1 id="title">孕育宝典</h1>
+			<a href="#searchf" id="search2">搜索</a>
+			<span id="favbtn">收藏</span>
+		</header>
+		<div class="main">
+			<section id="home">
+
+				<div class="iScroll">
+					
+					<a href="#list" data-tit="孕前准备" data-id="yunqian"><img src="img/pic1.png" alt=""></a>
+					<a href="#list" data-tit="孕中知识" data-id="yunzhong"><img src="img/pic2.png" alt=""></a>
+					<a href="#list" data-tit="产前知识" data-id="chanqian"><img src="img/pic3.png" alt=""></a>
+					<a href="#list" data-tit="分娩产后" data-id="chanhou"><img src="img/pic4.png" alt=""></a>
+					<a href="#list" data-tit="幼儿成长指标" data-id="chengzhang"><img src="img/pic5.png" alt=""></a>
+					<a href="#list" data-tit="幼儿常见病防治" data-id="fangzhi"><img src="img/pic6.png" alt=""></a>
+				</div>
+				
+			</section>
+			<section id="favorite">
+				
+					<ul class="ul">
+						
+					</ul>
+				
+			</section>
+			<section id="history">
+				<ul class="ul">
+					
+				</ul>
+			</section>
+			<section id="config">
+				<div class="box">
+									<p>有可更新数据，是否自动更新<span class="btn"><input type="checkbox" id="chek"><label for="chek">开关按钮</label></span></p>
+								</div>
+								<div class="box2">
+									<p>字体大小<span class="btn"><input type="radio" id="small"><label for="small"></label><b class="one1">小</b><input type="radio" id="middle"><label for="middle"></label><b class="one2">中</b><input type="radio" id="big"><label for="big"></label><b class="one3">大</b></span></p>
+								</div>
+
+			</section>
+			<section id="searchf">
+				<ul class="ul">
+					
+				</ul>
+			</section>
+			<section id="list">
+				<div class="iScroll">
+					<!-- <a href="#detail">
+						<figure>
+							<figcaption><img src="img/tu/0.jpg" alt=""></figcaption>
+							<p>的风格的鬼地方个</p>
+						</figure>
+					</a> -->
+					
+				</div>
+				
+				
+			</section>
+			<section id="detail">
+				<div class="iScroll">
+					
+				</div>
+			</section>
+		</div>
+		<footer class="footer">
+			<nav>
+				<a href="#home" data-title="首页">首页<small>home</small></a>
+				<a href="#favorite" data-title="收藏">收藏<small>favorite</small></a>
+				<a href="#history" data-title="历史记录">历史记录<small>history</small></a>
+				<a href="#config" data-title="设置">设置<small>config</small></a>
+
+			</nav>
+			
+			<div class="move" id="move"></div>
+		</footer>
+	</div>
+	
+	<script src="js/iscroll4.js"></script>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/js.js"></script>
+</body>
+</html>
